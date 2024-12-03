@@ -54,4 +54,4 @@ jobs:
           app-name: 'kmuhwapp'
           slot-name: 'stage'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AF171A4A374A4F47AC58486160A417A5 }}
+          publish-profile: ${{ secrets.KMUHWAPP_STAGE_PROFILESECRET}}
